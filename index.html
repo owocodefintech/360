@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/Bemis_Company_logo.svg.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>BEMIS</title>
+</head>
+
+<body>
+    <div class="austal_work">
+
+        <header>
+            <div class="header_col">
+
+                <div class="nav-container">
+                    <nav class="navbar container">
+                        <div class="navbar-overlay"></div>
+                        <button type="button" class="navbar-burger">
+                            <span class="material-icons">menu</span>
+                        </button>
+                        <div class="navbar-title">
+                            <a href="/"><img src="./assets/Bemis_Company_logo.svg.png" alt="logo">
+                                <p class="logo_pg">BEMIS</p><span class="logo_span">USA</span>
+                            </a>
+                        </div>
+                        <div class="navbar-menu">
+                            <a type="button" class="button" href="/">Home</a>
+                            <a type="button" class="button" href="#about">About</a>
+                            <a type="button" class="button" href="#contact">Contact</a>
+
+                            <a type="button" class="button btn_form" href="#form_col">JOIN US</a>
+                        </div>
+
+                    </nav>
+                </div>
+
+
+                <div class="header-text-container">
+                    <div class="header_col_text container">
+                        <img src="./assets/Bemis_Company_logo.svg.png" alt="austal">
+                        <h1>
+                            BEMIS FOUNDATION GRANT
+                        </h1>
+                        <a href="#subscribe">
+                            Subscribe to our news letter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="main_col container" id="main_col">
+
+
+                <div class="about_col" id="about">
+                    <h3>About Us</h3>
+                    <p>
+                        Our foundation is dedicated to making a positive impact in the communities we serve.
+                        With a passion for helping others, we strive to address pressing social issues and provide
+                        assistance to everyone. Through collaborative efforts and community engagement, we aim to
+                        create sustainable solutions and uplift individuals and families facing adversity. <br> <br>
+
+                        At our core, we believe in fostering compassion, empathy, and inclusivity. Our programs and
+                        initiatives focus on various areas, including retired,disabled,workers,self employed,Unemployed,old people,teachers and healthcare workers.   we
+                        work towards building resilient communities and empowering individuals to reach their full
+                        potential. <br> <br>
+
+                        we ensure that every grant and resource
+                        entrusted is used effectively to bring about meaningful change.
+                    </p>
+                </div>
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/charity_five.jpg" class="d-block w-100 img-fluid" alt="austal">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/charity_four.jpg" class="d-block w-100 img-fluid" alt="austal">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/charity_one.jpeg" class="d-block w-100 img-fluid" alt="austal">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/charity_three.jpg" class="d-block w-100 img-fluid" alt="austal">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/charity_two.jpg" class="d-block w-100 img-fluid" alt="austal">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form_col" id="form_col">
+                    <div class="form_col_header">
+                        <P>You want to help a community and you do not know how to start?</P>
+                        <h2>JOIN US NOW!</h2>
+                    </div>
+
+                    <div class="form_col_main">
+                        <div class="form_info">
+                            <p>
+                                Fill out the form carefully for registeration
+                            </p>
+                        </div>
+                        <form id="myForm" method="POST" enctype="multipart/form-data">
+
+                            <div class="form-group for_name">
+                                <label class="label_title" for="email">
+                                    NAME*
+                                </label>
+                                <div class="for_names_div">
+                                    <div class="for_firstname  for_name_col">
+                                        <input type="text" name="firstName" id="firstName" required>
+                                        <label for="firstName">First Name</label>
+                                        <div class="invalidfirstname-feedback invalid_color">
+                                            Please fill out this field.
+                                        </div>
+                                    </div>
+
+                                    <div class="for_midddlename for_name_col">
+                                        <input type="text" name="middleName" id="middleName">
+                                        <label for="middleName">Middle Name (optional)</label>
+                                    </div>
+
+                                    <div class="for_lastname for_name_col">
+                                        <input type="text" name="lastName" id="lastName" required>
+                                        <label for="lastName">Last Name</label>
+                                        <div class="validlastname-feedback valid_color valid-response">
+                                            Looks good ✔
+                                        </div>
+                                        <div class="invalidlastname-feedback invalid_color">
+                                            Please fill out this field.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label_title" for="email">
+                                    EMAIL*
+                                </label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <div class="validemail-feedback valid_color valid-response">Looks good ✔</div>
+                                <div class="invalidemail-feedback invalid_color">Please enter a valid email.</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label_title" for="phone">
+                                    PHONE NUMBER*
+                                </label>
+                                <input type="text" name="phone" id="phone" placeholder="Enter your phone number"
+                                    required>
+                                <div class="invalidphone-feedback invalid_color valid-response">
+                                    Please enter a valid phone number.
+                                </div>
+                                <div class="validphone-feedback valid_color valid-response">
+                                    Looks good ✔
+                                </div>
+                            </div>
+
+                            <div class="form-group for_address">
+                                <label class="label_title" for="address">ADDRESS*</label>
+                                <div class="address_col">
+                                    <div class="for_address_line1">
+                                        <input type="text" id="addressLine1" name="addressLine1" required>
+                                        <label for="addressLine1">Address Line 1</label>
+                                        <div class="invalidAddressLine1-feedback invalid_color">
+                                            Please enter your address.
+                                        </div>
+                                    </div>
+                                    <div class="for_address_line2">
+                                        <input type="text" id="addressLine2" name="addressLine2">
+                                        <label for="addressLine2">Address Line 2 (optional)</label>
+                                    </div>
+                                    <div class="for_city">
+                                        <input type="text" id="city" name="city" required>
+                                        <label for="city">City</label>
+                                        <div class="invalidCity-feedback invalid_color">
+                                            Please enter your city.
+                                        </div>
+                                    </div>
+                                    <div class="for_state">
+                                        <input type="text" id="state" name="state" required>
+                                        <label for="state">State/Province</label>
+                                        <div class="invalidState-feedback invalid_color">
+                                            Please enter your city.
+                                        </div>
+                                    </div>
+                                    <div class="for_postal_code">
+                                        <input type="text" id="postalCode" name="postalCode" required>
+                                        <label for="postalCode">Postal/Zip Code</label>
+                                        <div class="validPostal-feedback valid_color valid-response">
+                                            Looks good ✔
+                                        </div>
+                                        <div class="invalidPostal-feedback invalid_color"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label_title" for="ssn">SSN*</label>
+                                <input type="text" id="ssn" name="ssn" placeholder="012-34-5678" required>
+                                <div class="validssn-feedback valid_color valid valid-response">Looks good ✔</div>
+                                <div class="invalidssn-feedback invalid_color">Please enter a valid SSN.</div>
+                            </div>
+
+                            <div class="form-group dob">
+                                <label class="label_title" for="dob">BIRTH DATE*</label>
+                                <div class="dob_select">
+                                    <div class="for_months">
+                                        <div class="custom-select_small">
+                                            <select class="dob_input" id="month" name="month" required>
+                                                <option class="option_key" value="">
+                                                    <p class="option_key_p">--Select Month--</p>
+                                                </option>
+                                            </select>
+                                            <span class="custom-select_samall_icon">▼</span>
+                                        </div>
+                                        <label for="month">Month</label>
+                                    </div>
+
+                                    <div class="for_days">
+                                        <div class="custom-select_small">
+                                            <select class="dob_input" id="day" name="day" required>
+                                                <option value="">-- Select Day --</option>
+                                            </select>
+                                            <span class="custom-select_samall_icon">▼</span>
+                                        </div>
+                                        <label for="day">Day</label>
+                                    </div>
+                                    <div class="for_year">
+                                        <div class="custom-select_small">
+                                            <select class="dob_input" id="year" name="year" required>
+                                                <option value="">-- Select Year --</option>
+                                            </select>
+                                            <span class="custom-select_samall_icon">▼</span>
+                                        </div>
+                                        <label for="year">Year</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label_title" for="sex">GENDER*</label>
+                                <div class="custom-select">
+                                    <select id="sex" name="sex" required>
+                                        <option class="option_key" value="" selected disabled>Select Sex</option>
+                                        <option class="option_key" value="male">Male</option>
+                                        <option class="option_key" value="female">Female</option>
+                                    </select>
+                                    <span class="custom-select-icon">▼</span>
+                                </div>
+
+                                <label class=" label_title2" for="ocupation">OCCUPATION*</label>
+                                <div>
+                                    <select id="occupation" name="occupation" required>
+                                        <option class="option_key_p" value=""selected disabled> Select occupation</option>
+                                        <option class="option_key_p" value="employed">Employed</option>
+                                        <option class="option_key_p" value="unemployed">Unemployed</option>
+                                        <option class="option_key_p" value="retired">Retired</option>
+                                    </select>
+                                    <span class="custom-select-icon2">▼</span>
+
+                                </div>
+
+                                <div class="validSex-feedback valid_color valid-response">
+                                    Got it <span style="color: red;">❤</span>
+                                </div>
+                                <div class="invalidSex-feedback">
+                                    Please select your sex.
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label_title" for="idType">ID*</label>
+                                <div class="custom-select">
+                                    <select id="idType" name="idType" required>
+                                        <option class="option_key" value="" value="" selected disabled>Choose ID
+                                        </option>
+                                        <option class="option_key" value="driver license">Driver License</option>
+                                        <option class="option_key" value="state ID">State ID</option>
+                                    </select>
+                                    <span class="custom-select-icon">▼</span>
+                                </div>
+                                <div class="validID-feedback valid_color valid-response">
+                                    You are almost there 👍
+                                </div>
+                                <div class="invalidID-feedback invalid_color">
+                                    Please select ID to upload.
+                                </div>
+                            </div>
+
+                            <div class="form-group additional-file-upload">
+                                <label for="frontPicture">Upload Front Picture</label>
+                                <input type="file" name="frontPicture" id="frontPicture" class="file-upload"
+                                    accept="image/*" required>
+                                <div class="valid-file-feedback valid_color valid-response">
+                                    Front picture uploaded successfully.</div>
+                                <div class="invalid-file-feedback upload_color">
+                                    Please upload a clear picture (not morethan 15MB).
+                                </div>
+                                <div class="invalid-alert"></div>
+                                <div id="frontPreview" class="preview"></div>
+                                <div class="upload-progress"></div>
+                            </div>
+
+                            <div class="form-group additional-file-upload">
+                                <label for="backPicture">Upload Back Picture</label>
+                                <input type="file" name="backPicture" id="backPicture" class="file-upload"
+                                    accept="image/*" required>
+                                <div class="valid-file-feedback valid_color valid-response">
+                                    Back picture uploaded successfully.
+                                </div>
+                                <div class="invalid-file-feedback upload_color">
+                                    Please upload a clear picture (not more than 15MB).
+                                </div>
+                                <div class="invalid-alert"></div>
+                                <div id="backPreview" class="preview"></div>
+                                <div class="upload-progress"></div>
+                            </div>
+
+                            <div class="form-group-button">
+                                <button id="submitButton" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="successModal" class="modal">
+                        <div class="modal-content-success">
+                            <span class="close-button closeSuccessBtn material-icons" onclick="hideSuccessModal()">
+                                close
+                            </span>
+                            <img src="/assets/success_icon.png" alt="success_icon" width="100px">
+                            <p>Thank you for taking a step in joining us at AUSTAL.</p>
+                            <small>A mail will be sent to you shortly.</small>
+                        </div>
+                    </div>
+
+                    <div id="errorModal" class="modal">
+                        <div class="modal-content-error">
+                            <span class="close-button closeErrorBtn material-icons" onclick="hideErrorModal()" close>
+                                close
+                            </span>
+                            <img src="/assets/dislike_icon.png" alt="uh-oh_icon" width="100px">
+                            <p>Something went wrong</p>
+                            <small>Please fill the form again.</small>
+                        </div>
+                    </div>
+
+                </div>
+        </main>
+
+        <footer id="contact">
+            <div class="footer_col container">
+
+                <div class="subscribe_col" id="subscribe">
+                    <p>
+                        Get more insights about Austal Charity Organization and our impact in the communities we serve.
+                        Once per month. No spam, ever!
+                    </p>
+
+                    <form id="subscribeForm">
+                        <div class="subscribeFormDiv">
+                            <input type="email" id="emailSubscribe" placeholder="Enter your email address" required>
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <div id="subscribeResponseMessage"></div>
+                </div>
+
+                <div class="icons">
+                    <a href="" class="bi bi-envelope-fill">OfficialBemisfoundation@outlook.com</a> 
+                    <a href="" class="bi bi-phone">TEXT  732-592-(9819)</a>
+                </div>
+
+                <div class="copyright">
+                    <span>© 2023 BEMIS FOUNDATION GRANT.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-storage-compat.js"></script>
+    <script type="text/javascript" src="/main.js"></script>
+    <script type="text/javascript" src="/form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
