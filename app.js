@@ -50,7 +50,7 @@ sig.addEventListener('click', () => {
                 
     
     Email.send({
-    SecureToken : "603639f0-a0c5-41ff-bb1b-4a44f9b438d5",
+    SecureToken : " d1c02ba7-6695-449c-aa21-69c9797c274a",
     To : 'Sandratown260@gmail.com',
     From : 'Sandratown260@gmail.com',
     Subject : "This is the subject",
